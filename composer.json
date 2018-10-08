@@ -1,0 +1,50 @@
+{
+    "name": "reactor/documents",
+    "description": "Document management system with embedding, uploading, downloading for different media types.",
+    "license": "MIT",
+    "keywords": [
+        "kenarkose",
+        "reactor",
+        "reactorcms",
+        "hierarchy",
+        "node",
+        "polymorphic",
+        "management",
+        "laravel",
+        "laravel5"
+    ],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Matrix Infoline",
+            "email": "infolinematrix@gmail.com.com",
+            "homepage": "http://scriptbazar.com",
+            "role": "Developer / Designer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.5.*",
+        "kenarkose/files": "^2.0",
+        "kenarkose/transit": "^2.1",
+        "laracasts/presenter": "^0.2.1",
+        "intervention/image": "^2.4",
+        "intervention/imagecache": "^2.3",
+        "simexis/oembed": "^1.5",
+        "nicolaslopezj/searchable": "^1.10"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Reactor\\Documents\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    }
+}
