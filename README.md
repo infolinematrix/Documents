@@ -2,13 +2,7 @@
 Document management system with embedding, uploading, downloading for different media types.
  
 ---
-[![Build Status](https://travis-ci.org/NuclearCMS/Documents.svg?branch=master)](https://travis-ci.org/NuclearCMS/Documents)
-[![Total Downloads](https://poser.pugx.org/Nuclear/Documents/downloads)](https://packagist.org/packages/Nuclear/Documents)
-[![Latest Stable Version](https://poser.pugx.org/Nuclear/Documents/version)](https://packagist.org/packages/Nuclear/Documents)
-[![License](https://poser.pugx.org/Nuclear/Documents/license)](https://packagist.org/packages/Nuclear/Documents)
- 
-This package is intended for [Nuclear CMS](https://github.com/NuclearCMS/Nuclear) and it constitutes its main document management functionality. It is developed separately to enable individual development, testing and possible reuse.
- 
+
 ## Installation
 Installing Documents is simple.
  
@@ -16,7 +10,7 @@ Installing Documents is simple.
     ```js
     {
         "require": {
-            "nuclear/documents": "~0.9"
+            "reactor/documents": "dev-master"
         }
     }
     ```
@@ -48,4 +42,4 @@ Installing Documents is simple.
 4. Please check the tests and source code for further documentation.
  
 ## License
-Documents is released under [MIT License](https://github.com/NuclearCMS/Documents/blob/master/LICENSE).
+Documents is released under [MIT License](https://github.com/infolinematrix/Documents/blob/master/LICENSE).
