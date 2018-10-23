@@ -6,11 +6,11 @@ namespace Reactor\Documents\Media;
 use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Builder;
 use Intervention\Image\Facades\Image as ImageFacade;
-use Kenarkose\Files\Determine\AutoDeterminesType;
+use Reactor\Files\Determine\AutoDeterminesType;
 use Kenarkose\Ownable\AutoAssociatesOwner;
 use Kenarkose\Ownable\Ownable;
 use Kenarkose\Sortable\Sortable;
-use Kenarkose\Transit\File\File as TransitFile;
+use Reactor\Transit\File\File as TransitFile;
 use Laracasts\Presenter\PresentableTrait;
 use Nicolaslopezj\Searchable\SearchableTrait;
 
